@@ -1,0 +1,28 @@
+# Ambientes
+.conda/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados locais
+data/
+*.h5
+*.hdf5
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
