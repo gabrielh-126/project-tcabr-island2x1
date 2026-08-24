@@ -4,9 +4,9 @@ Study and analysis project of data from TCABR, with focus on the investigation o
 
 ## Structure
 
-- `environment.yml` — computational enviroment and dependecie.
+- `environment.yml` — computational enviroment and dependecies.
 - `notes/` — study and reading notes.
-- `notebooks/` — computational analisys and experiments.
+- `notebooks/` — computational analysis and experiments.
 - `src/` — codes and reusable functions.
 - `reports/` — periodic reports on the project.
 
