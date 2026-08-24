@@ -2,11 +2,13 @@
 
 Basic destabilizing forces:
 (I) Current gradients
+
 (II) Pressure gradients combined with adverse magnetic field curvature
 
-Futhermore we can divide the instabilities in two categories
+Futhermore we can divide the instabilities in two categories:
 
 (I) Ideal modes, instabilities that would occur even if the plasma were perfectly conducting
+
 (II) Resistive modes, which occur dependent on the finite resistivity of the plasma
 
 They have an infinite spectrum of possible modes, whose take the form exp[i(m\theta - n\phi)],
@@ -16,24 +18,28 @@ m - how many times the disturbance oscilates in the poloidal direction
 
 n - how many times the disturbance oscilates in the toroidal direction
 
-The stabilizing effects for MHD modes arise from
+The stabilizing effects for MHD modes arise from:
 
 (I) Magnetic field line bending, the production of a magnetic field perpendicular to the
 equilibrium field. This effect inscreases with m
+
 (II) Magnetic field line compression, the production of a magnetic field parallel to the 
 equilibrium field.
+
 (III) Good magnetic field curvature, the centre of curvature being in the opposite direc-
 tion to the pressure gradient.
 
 For low mode numbers, the modes are not localized. However, their resonant surfaces must 
 satisfy m/n = q, where q is the safety factor.
 
-There are three principal theoretical procedures for determining stability
+There are three principal theoretical procedures for determining stability:
 
 (I) The energy principle, in which the potential energy change resulting from a plasma dis-
 placement \chi(x) is examined
+
 (II) Calculation of eigenfunctions and corresponding eigenvalues for the frequency \omega.
 The sign of the imaginary part of \omega determines the stability
+
 (III) Solution of the marginal stability equation (\omega_t = 0). Its solution satisfies
 the required boundary conditions for a configuration on the satilibty boundary.
 
