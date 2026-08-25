@@ -30,7 +30,7 @@ For low mode numbers, the modes are not localized. However, their resonant surfa
 
 There are three principal theoretical procedures for determining stability:
 
-(I) The energy principle, in which the potential energy change resulting from a plasma displacement $\chi(x)$ is examined
+(I) The energy principle, in which the potential energy change resulting from a plasma displacement $\xi(x)$ is examined
 
 (II) Calculation of eigenfunctions and corresponding eigenvalues for the frequency $\omega$. The sign of the imaginary part of $\omega$ determines the stability
 
@@ -48,14 +48,32 @@ $pq = p_0q_0 + p_0q_1 + p_1q_0 + p_1q_1$.
 
 And so on and so forth for more similar factors. In this form the terms that describe the equilibrium solution ($p_0q_0$) are canceled. Linear in the perturbed quantities ($q_0p_1$ and $p_1q_0$) are retained and higher order terms ($p_1q_1$) are negligible.
 
-To solve these equations we use Laplace transforms. The solution has a parte which dependes on the initial conditions, and other part which is a homogeneous solutions of the equations. This homogeneous parte is comprised of eigenfunction of the system, each having an eigenvalue $\omega$, and appears in the independent factor $e^[-i\omega t]$ of the solution. In general $\omega$ is complex and
+To solve these equations we use Laplace transforms. The solution has a parte which dependes on the initial conditions, and other part which is a homogeneous solutions of the equations. This homogeneous parte is comprised of eigenfunction of the system, each having an eigenvalue $\omega$, and appears in the independent factor $e^(-i\omega t)$ of the solution. In general $\omega$ is complex and
 
-$e^[-i\omega t] = e^[-i\omega_i t + \omega_i t]$
+$e^(-i\omega t) = e^(-i\omega_i t + \omega_i t)$
 
 The real part of $\omega$ describes the real frequency of the mode and the imaginary part determines stability, instability corresponding to $\omega_i > 0$.
 
-An alternative way to determine stability is to calculate the change in potential energy to a given plasma displacement $\chi(x)$. The plasma is unstable to any perturbation $\chi(x)$ which makes  the potential energy change $\delta W[\chi]$ negative.
+An alternative way to determine stability is to calculate the change in potential energy to a given plasma displacement $\xi(x)$. The plasma is unstable to any perturbation $\xi(x)$ which makes  the potential energy change $\delta W[\xi]$ negative.
 
-Because in a tokamak whe have toroidal symmetry, the perturbations can be Fourir analysed in the coordinate $\phi$. Each component has te form $e^[-in\phi]$ and can be treated separately, the component being characterized by the mode number n. Sometimes the equilibrium variation in the poloidal angle $\theta$ is sufficiently small that the Fourier components in $\theta$ are separable. So then the eigenfunctions have the form $e^[i(m\theta - n\phi)].
+Because in a tokamak whe have toroidal symmetry, the perturbations can be Fourier analysed in the coordinate $\phi$. Each component has te form $e^(-in\phi)$ and can be treated separately, the component being characterized by the mode number n. Sometimes the equilibrium variation in the poloidal angle $\theta$ is sufficiently small that the Fourier components in $\theta$ are separable. So then the eigenfunctions have the form $e^(i(m\theta - n\phi))$.
 
-##Growth rates 
+## Energy principle
+
+The energy principle is based on the concept that if a physically allowable perturbation of an equilibrium lowers the potential energy, then the equilibrium is unstable. These instabilites are called ideal modes. The energy change resulting from a displacement $\xi(x)$ of the plasma is given by the volume integral
+
+$\delta W = -\frac{1}{2}\int \xi\cdot F d\tau$,
+
+where F(x) is the force arising from the displacement. The linearized force being given by
+
+$F = j-1 \times B_0 + j_0 \times B_1 - \nabla p_1$,
+
+where the subscripts 0 and 1 refer to the equilibrium and the perturbation. By a series of substitutions we arive at the final form for the energy principle such as
+
+$\delta W = \frac{1}{2}\int \left(\gamma p_0(\nabla\cdot\xi)^2 + (\xi\cdot\nabla p_0)\nabla\cdot\xi + \frac{1}{\mu_0}B_1^2 - j_0\cdot(B_1\times\xi)\right)d\tau + \frac{1}{2}\int_(\text(vacuum)) \frac{B_V^2}{2\mu_0} d\tau$,
+
+where $B_1$ is given by 
+
+$B_1 = \nabla\times(\xi\times B_0),
+
+and B_V satisfies $\nabla\times B_V = 0$ togheter with te required $\xi$-dependent boundary conditions. If $\delta W$ is negative for any physically allowable $\xi$ the plasma is unstable. If $\delta W$ is positive, by the other way, the plasma is stable.
