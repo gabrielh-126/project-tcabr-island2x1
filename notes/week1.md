@@ -1,4 +1,4 @@
-## MHD stability
+# MHD stability
 
 Basic destabilizing forces:
 
@@ -77,3 +77,21 @@ where $B_1$ is given by
 $B_1 = \nabla\times(\xi\times B_0)$,
 
 and $B_V$ satisfies $\nabla\times B_V = 0$ togheter with the required $\xi$-dependent boundary conditions. If $\delta W$ is negative for any physically allowable $\xi$ the plasma is unstable. If $\delta W$ is positive, by the other way, the plasma is stable.
+ 
+# Tokamak diagnostics
+
+There are five major areas of investigations for tokamak diagnostics:
+
+(I) Study of methos of setting up stable plasmas and the investigation of MHD instabilites.
+
+(II) Determination of energy and particle containment times, and transport coefficients.
+
+(II) Development of supplementary plasma heating methods.
+
+(IV) Study and control of plasma impurities.
+
+(V) Investigation of plasma fluctuations to determine their role in plasma transport.
+
+The earliest priority of tokamak research was to establish methods of setting up and controlling discharges free of from gross MHD or positional instabilites. SO, a set of basic eletromagnetic diagnostics was developed to mesaure the plasma current, position, shape and MHD properties. This activity has been studied with coils at the edge of the plasma, to measure the magnetic field perturbations. Internal MHD effects also have been studied with X-ray diode system, who measure the emission from the hot central regions of the plasma.
+
+Another subject of interest is measuring the energy confinement time. Thies is done by using a diamagnetic loop to determine the energy content, $W$, and calculating the confinement time from $\tau_E = W/P$, where P is the power input to the plasma. However, this is not as reliable as obtaining the plasma energy directly from measurements of the density and temperature profiles. In present tokamaks the electron temperature is often determined from electron cyclotron emission measurements. The ion temperature is often determined from the Doppler broadening of radiation produced by the decay of leves that are populated following charge exchange with neutral beams.
