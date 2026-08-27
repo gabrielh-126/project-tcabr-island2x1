@@ -106,7 +106,7 @@ $\Phi = - \int_{t_0}^{t} V(t')dt'$,
 
 and to calculate the average value of the normal component of magnetic field B from the flux using
 
-$B\cdot n = \frac{\Phi}{NA},
+$B\cdot n = \frac{\Phi}{NA}$,
 
 where N is the number of turns and A is their average area. All components of the magnetic field may be measured using sets of orthogonal coils.
 
@@ -116,19 +116,19 @@ The toroidal field outside  the plasma is determined by the external field coils
 
 Ampère's law relates the integral of the magnetic field strenght round a closed loop to the total current enclosed by the loop:
 
-$I = \frac{1}{\mu_0}\oint B\cdot dl,
+$I = \frac{1}{\mu_0}\oint B\cdot dl$,
 
 where $dl$ is an element of lenght of the loop. The toroidal current is determined using a continous Rogowski coil. The coil consits of multiple turn coil of wire which returns along the exis of the coil to avoid enclosing any the flux parallel to the current. If the individual turns are small compared with the total size of the coil, then $B$ varies only slighty across a turn and the flux measured per unit length of coils, given by
 
-$d\Phi = nAB\cdot dl,
+$d\Phi = nAB\cdot dl$,
 
 where n are the turn per unit lenght, each of area A. So the total flux linking the coil is
 
-$\Phi = nA\oint B\cdot dl.
+$\Phi = nA\oint B\cdot dl$.
 
 We can put all togheter to determine the current such as
 
-$I(t) = -\frac{\int_{t_0}{t}V(t')dt'}{nA\mu_0}.
+$I(t) = -\frac{\int_{t_0}{t}V(t')dt'}{nA\mu_0}$.
 
 ### Loop voltage
 
