@@ -92,6 +92,48 @@ There are five major areas of investigations for tokamak diagnostics:
 
 (V) Investigation of plasma fluctuations to determine their role in plasma transport.
 
-The earliest priority of tokamak research was to establish methods of setting up and controlling discharges free of from gross MHD or positional instabilites. SO, a set of basic eletromagnetic diagnostics was developed to mesaure the plasma current, position, shape and MHD properties. This activity has been studied with coils at the edge of the plasma, to measure the magnetic field perturbations. Internal MHD effects also have been studied with X-ray diode system, who measure the emission from the hot central regions of the plasma.
+The earliest priority of tokamak research was to establish methods of setting up and controlling discharges free of from gross MHD or positional instabilites. So, a set of basic eletromagnetic diagnostics was developed to mesaure the plasma current, position, shape and MHD properties. This activity has been studied with coils at the edge of the plasma, to measure the magnetic field perturbations. Internal MHD effects also have been studied with X-ray diode system, who measure the emission from the hot central regions of the plasma.
 
-Another subject of interest is measuring the energy confinement time. Thies is done by using a diamagnetic loop to determine the energy content, $W$, and calculating the confinement time from $\tau_E = W/P$, where P is the power input to the plasma. However, this is not as reliable as obtaining the plasma energy directly from measurements of the density and temperature profiles. In present tokamaks the electron temperature is often determined from electron cyclotron emission measurements. The ion temperature is often determined from the Doppler broadening of radiation produced by the decay of leves that are populated following charge exchange with neutral beams.
+Another subject of interest is measuring the energy confinement time. Thies is done by using a diamagnetic loop to determine the energy content, $W$, and calculating the confinement time from $\tau_E = W/P$, where P is the power input to the plasma. However, this is not as reliable as obtaining the plasma energy directly from measurements of the density and temperature profiles. In present tokamaks the electron temperature is often determined from electron cyclotron emission measurements. The ion temperature is often determined from the Doppler broadening of radiation produced by the decay of leves that are populated following charge exchange with neutral beams. The importance of impurities was realized early in the tokamak programme when it was found that it was not possible to obtain a stable tokamak discharge in a insufficiently clean vessel. Plasma impurities radiate strongly and result in the reduction o $\tau_E$, preventing the ignition. It was also recognized that the production of reproducible discharges depend strongly on the control of impurities. These problems led to a substantial development of spectroscopic diagnostics to examine the production and behaviour of impurities.
+
+Measurements of high frequency plasma fluctuations have been undertaken to establish possible mechanisms to account for the anomalous transport observed in tokamaks. The principal techiniques involve the use of heavy ion beam probles and edge probes. Both magnetic and eletrostatic turbulence are regarded as possible causes of anomalous transport. The evaluation of these effects requires measurements of the fluctuations of dennsitu, temperature, and field strenght throughout the plasma volume.
+
+## Magnetic measurements
+
+Basic measurements of a tokamak are the plasma current, loop voltage, plasma position and hape, stored plasma energy, and current distribution. The local magnetic field can be measured using a small coil. The principle is to determine the flux linking the coil from the induced voltage V
+
+$\Phi = - \int_{t_0}^{t} V(t')dt'$,
+
+and to calculate the average value of the normal component of magnetic field B from the flux using
+
+$B\cdot n = \frac{\Phi}{NA},
+
+where N is the number of turns and A is their average area. All components of the magnetic field may be measured using sets of orthogonal coils.
+
+The toroidal field outside  the plasma is determined by the external field coils and is usually measured by only a few detector coils. The strenght and direction of the field in the poloidal plane dependes on the plasma behaviour. Magnetic coils are place on the vacuum vessel to determine the local field in the direction normal to and parallel to the measuring surface. In addition to the coils determining B on the measuring surface, there are also Rogowski coils to determine current, and toroidal and poloidal flux loops to determine the total enclosed flux and the loop voltage.
+
+### Plasma current
+
+Ampère's law relates the integral of the magnetic field strenght round a closed loop to the total current enclosed by the loop:
+
+$I = \frac{1}{\mu_0}\oint B\cdot dl,
+
+where $dl$ is an element of lenght of the loop. The toroidal current is determined using a continous Rogowski coil. The coil consits of multiple turn coil of wire which returns along the exis of the coil to avoid enclosing any the flux parallel to the current. If the individual turns are small compared with the total size of the coil, then $B$ varies only slighty across a turn and the flux measured per unit length of coils, given by
+
+$d\Phi = nAB\cdot dl,
+
+where n are the turn per unit lenght, each of area A. So the total flux linking the coil is
+
+$\Phi = nA\oint B\cdot dl.
+
+We can put all togheter to determine the current such as
+
+$I(t) = -\frac{\int_{t_0}{t}V(t')dt'}{nA\mu_0}.
+
+### Loop voltage
+
+The simplest measurements is that of the toroidal loop voltage which is determined by measring the voltage round a toroidal loop of wire parallel to the plasma. The loop voltage is useful in determining resistance and the Joule heating of the plasma. The voltage is induced by flux changes due both to currents in the primary circuit and the plasma current itself. Only when plasma current and the current density profile are constant in time, the toroidal voltage is uniform across the plasma and equal to the loop voltage measured at the surface.
+
+### Plasma surface
+
+The shape and position of the outermost closed magnetic surface of the plasma can be determined from the toroidal loop voltage and poloidal field mesured at many points on the vacuum vessel. 
