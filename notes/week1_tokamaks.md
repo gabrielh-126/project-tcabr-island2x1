@@ -102,7 +102,7 @@ Measurements of high frequency plasma fluctuations have been undertaken to estab
 
 Basic measurements of a tokamak are the plasma current, loop voltage, plasma position and hape, stored plasma energy, and current distribution. The local magnetic field can be measured using a small coil. The principle is to determine the flux linking the coil from the induced voltage V
 
-$\Phi = - \int_{t_0}^{t}{V(t^')dt^'}$,
+$\Phi = - \int_{t_0}^{t}{V(t^{'})dt^{'}}$,
 
 and to calculate the average value of the normal component of magnetic field B from the flux using
 
@@ -128,7 +128,7 @@ $\Phi = nA\oint B\cdot dl$.
 
 We can put all togheter to determine the current such as
 
-$I(t) = -\frac{\int_{t_0}^{t}{V(t^')dt^'}}{nA\mu_0}$.
+$I(t) = -\frac{\int_{t_0}^{t}{V(t^{'})dt^{'}}}{nA\mu_0}$.
 
 ### Loop voltage
 
