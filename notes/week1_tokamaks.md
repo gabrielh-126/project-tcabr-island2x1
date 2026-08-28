@@ -128,7 +128,7 @@ $\Phi = nA\oint B\cdot dl$.
 
 We can put all togheter to determine the current such as
 
-$I(t) = -\frac{\int_{t_0}{t}V(t')dt'}{nA\mu_0}$.
+$I(t) = -\frac{\int_{t_0}^{t}V(t')dt'}{nA\mu_0}$.
 
 ### Loop voltage
 
@@ -136,4 +136,32 @@ The simplest measurements is that of the toroidal loop voltage which is determin
 
 ### Plasma surface
 
-The shape and position of the outermost closed magnetic surface of the plasma can be determined from the toroidal loop voltage and poloidal field mesured at many points on the vacuum vessel. 
+The shape and position of the outermost closed magnetic surface of the plasma can be determined from the toroidal loop voltage and poloidal field mesured at many points on the vacuum vessel. To identify the last closed flux surface, we need an extrapolation from the measured poloidal flux, $\psi$, at the wall using $\nabla^2\psi = 0$. This procesdure relies on measurements being made relatively close to the plasma surface, otherwise errors in extrapolation become large.
+
+### Plasma position and shave
+
+In addition to giving the position of the plasma surface, the magnetic mesaruements can be used to give the position of the centre of the current channel. One mehtod is to evaluate moments of the current density profile. The first current moment gives the position of the current centre, $R_c$ defined bu
+
+$R_c^2 = \frac{1}{I}\int j_\phi R^2dA$.
+
+In the simplest case where the measuring surface is a flux surface, $R_c$ is
+
+$R_c^2 = \frac{1}{\mu_0 I}\oint B_pR^2dl.
+
+where $j_\phi$ is the toroidal current density and B_p is the poloidal field at the surface. Higher moments give information on the shape of the current channel. The second moment gives the elongation and the third one gives the triangularity.
+
+### Plasma energy and internal inductance
+
+The plasma energy can be determined using the force balance between the magneticfield and  the kinetic pressure. There are two methods, onde using the force balance along the major radius, the other the force balance along the minor radius.
+
+The quantities required are the magnitude and direction of the magnetic field at the measuring surface, and the diamagnetic flux. The latter is the difference between the total toroidal flux with plasma and that in the absence of plasma. This flux is measured with a loop enclosing the plasma, encircling it poloidally. The vacuum flux is determined either bt measuring the current flowing in the toroidal field coils, or the toroidal field outside the vacuum vessel.
+
+### Instability measurements
+
+Several mhd instabilities occur in tokamaks, using coils these perturbations can be detected at the plasma edge even when the amplitude of the instability is quite small. This is because the instabilities usually rotate due to the plasma velocity and the diagmanetic velocity, leading to timesclaes $10^3 - 10^4$ times shorter than typical timesclaes for changes in the equilibrium magnetic field.
+
+Magnetic perturbations sometimes become stationary in the laboratory frame due to a process knwon as mode locking. The detection of such stationary perturbations is more difficuld and relies on the integrating the output of several coils combined in such a way as to eliminate the equilibrium field, and only detect the toroidal harmonic perturbations such as n = 1 or 2.
+
+By making measurements at different poloidal and toroidal locations the structure of magnetic perturbations can be determined as well as their amplitude and frequency. The struture may vary across the radius, with modes m = 1, n = 1 there may be an structure in the centre and an m = 3, n = 1 the structure may be near the plasma edge.
+
+
