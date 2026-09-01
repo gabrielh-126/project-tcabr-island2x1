@@ -111,6 +111,15 @@ $$W = \left( r_s + 2\sqrt{\frac{\tilde{\psi}}{\psi''(r_s)}} \right) - \left( r_s
 - The island width scales as $\sqrt{\tilde{\psi}}$: larger perturbations produce wider islands.
 - The width is inversely proportional to $\sqrt{\psi''(r_s)}$: stronger magnetic shear (larger curvature of the flux profile) reduces the island size.
 - The separatrix delimits the region of closed field lines (inside the island) from the open ones (outside).
-- The phase $\phi(t)$ controls the rotation of the island but does not affect its width, it only shifts the island in the angular coordinate \(\xi\).
+- The phase $\phi(t)$ controls the rotation of the island but does not affect its width, it only shifts the island in the angular coordinate $\xi$.
 
----
+##  Plotting the island
+
+By choosing the values of $r_s$ = 1.0, $\psi '' = 1.0$ and $\tilde{\psi} = 0.04$, we have a total length of $W = 0.8$ and we can build the graphic below:
+
+<img width="989" height="590" alt="ilha" src="https://github.com/user-attachments/assets/47e89e2d-e366-4dc7-898c-c01c1390af49" />
+
+The lines changing colors are representative of the contour lines, with blue meaning low $\psi$ and yellow meaning high $\psi$. Inside the island the curves are closed around the center, outside they are open and extend horizontally.
+
+
+
