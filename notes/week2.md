@@ -27,6 +27,9 @@ We have two critical points at $r = r_s$, a minimum in $\xi = \pi$ and a maximum
 $$H = \begin{bmatrix}
 \frac{\partial^2\psi}{\partial r^2} & \frac{\partial^2\psi}{\partial r \partial \xi} \\
 \frac{\partial^2\psi}{\partial \xi \partial r} & \frac{\partial^2\psi}{\partial \xi^2}
+\end{bmatrix}  = \begin{bmatrix}
+\psi''(r_s) & 0 \\
+0 & -\tilde{\psi}\cos\xi
 \end{bmatrix}$$
 
 So, it's determinant is given by
