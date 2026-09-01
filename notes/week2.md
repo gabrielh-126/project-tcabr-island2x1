@@ -24,7 +24,10 @@ $\sin\xi = 0 \Rightarrow \xi = 0 \ \  \text{or} \ \ \xi = \pi$.
 
 We have two critical points at $r = r_s$, a minimum in $\xi = \pi$ and a maximum in unstable equilibrium in $\xi = 0$. Futhermore, we can examine these points using the determinant of the Hessian matrix. Which is given by
 
-$H = \begin{bmatrix} \frac{\partial^2\psi}{\partial r^2} & \frac{\partial^2\psi}{\partial r \partial \xi} \\ \frac{\partial^2\psi}{\partial \xi \partial r} & \frac{\partial^2\psi}{\partial \xi^2} \end{bmatrix}$
+$$H = \begin{bmatrix}
+\frac{\partial^2\psi}{\partial r^2} & \frac{\partial^2\psi}{\partial r \partial \xi} \\
+\frac{\partial^2\psi}{\partial \xi \partial r} & \frac{\partial^2\psi}{\partial \xi^2}
+\end{bmatrix}$$
 
 So, it's determinant is given by
 
@@ -34,7 +37,7 @@ In $\xi = 0$, $\det H < 0$, making this point a saddle point. In the other case,
 
 We now use the quantile, which is a curve that passes by the saddle point and distinguishes open from close trajectories. We then make
 
-$\psi_saddle = \psi_0(r_s) + \tilde{\psi}$.
+$\psi_{saddle} = \psi_0(r_s) + \tilde{\psi}$.
 
 Therefore, the equation for the quantile is
 
