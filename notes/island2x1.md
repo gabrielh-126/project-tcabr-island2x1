@@ -117,9 +117,29 @@ $$W = \left( r_s + 2\sqrt{\frac{\tilde{\psi}}{\psi''(r_s)}} \right) - \left( r_s
 
 By choosing the values of $r_s$ = 1.0, $\psi '' = 1.0$ and $\tilde{\psi} = 0.04$, we have a total length of $W = 0.8$ and we can build the graphic below:
 
-<img width="989" height="590" alt="ilha" src="https://github.com/user-attachments/assets/47e89e2d-e366-4dc7-898c-c01c1390af49" />
+<img width="989" height="590" alt="ilha_simples" src="https://github.com/user-attachments/assets/ed5018ab-b6f3-4117-80b4-5ca3375ddf99" />
+
+If we wish to add contour lines, its possible to take the equation of $\psi$ and add the values as lines in the same graph, as given below:
+
+<img width="989" height="590" alt="ilha" src="https://github.com/user-attachments/assets/5194e880-89ec-442a-a071-78ea6b6a8ecd" />
 
 The lines changing colors are representative of the contour lines, with blue meaning low $\psi$ and yellow meaning high $\psi$. Inside the island the curves are closed around the center, outside they are open and extend horizontally.
 
+### Why an island flattens the temperature profile, and why a modulation in SXR is produced when the island rotates?
 
+Usually, the plasma has a temperature gradient, as given by
+
+$T_0 = T_0(r), \qquad \frac{dT_0}{dr} < 0.$
+
+Magnetic surfaces have approximately the same temperature, this happens because the heat flux throughout the magnetic field is more efficient than the flux perpendicular to it ($\kappa_{\parallel} \gg \kappa_{\perp}$).
+
+The heat flux according to Fitzpatrick (1995) is
+
+$\vec{q} = -\kappa_{\parallel}\nabla_{\parallel}T - \kappa_{\perp}\nabla_{\perp}T,$ where
+
+$\nabla_{\parallel}T = \vec{b}(\vec{b}\cdot\nabla T); \qquad \vec{b} = \vec{B}/|\vec{B}|.$
+
+When an island appears, some field lines remain restric inside the island structure, as seen in the second figure above. Since the parallel transport of the field is very efficient, one external and one internal region that once had different temperatures, the colder one will get hotter until they reach approximately the same temperature.
+
+This happens more significantly when the island reaches a certain size that is $W \gg W_d$, where $W_d$ is the critical length, flattening the temperature profile.
 
