@@ -131,15 +131,21 @@ Usually, the plasma has a temperature gradient, as given by
 
 $T_0 = T_0(r), \qquad \frac{dT_0}{dr} < 0.$
 
-Magnetic surfaces have approximately the same temperature, this happens because the heat flux throughout the magnetic field is more efficient than the flux perpendicular to it ($\kappa_{\parallel} \gg \kappa_{\perp}$).
+Magnetic surfaces have approximately constant temperature. This occurs because heat transport along the magnetic field is much more efficient than transport perpendicular to it ($\kappa_{\parallel} \gg \kappa_{\perp}$).
 
-The heat flux according to Fitzpatrick (1995) is
+The heat flux, according to Fitzpatrick (1995) is
 
 $\vec{q} = -\kappa_{\parallel}\nabla_{\parallel}T - \kappa_{\perp}\nabla_{\perp}T,$ where
 
 $\nabla_{\parallel}T = \vec{b}(\vec{b}\cdot\nabla T); \qquad \vec{b} = \vec{B}/|\vec{B}|.$
 
-When an island appears, some field lines remain restric inside the island structure, as seen in the second figure above. Since the parallel transport of the field is very efficient, one external and one internal region that once had different temperatures, the colder one will get hotter until they reach approximately the same temperature.
+When an island appears, some field lines become confined within the island structure, as shown in the second figure above. Since heat transport along the magnetic field is very efficient, regions that were previously at different radial positions, and therefore had different temperatures, become thermally connected. Heat flows from the hotter region to the colder one, reducing the temperature difference between them.
 
-This happens more significantly when the island reaches a certain size that is $W \gg W_d$, where $W_d$ is the critical length, flattening the temperature profile.
+This effects becomes more significantly when the island is sufficently large, namely when $W \gg W_d$, where $W_d$ is the critical length, flattening the temperature profile.
+
+The plasma emits soft X-ray radiation (SXR), whose local emissivity depends on the electron density and temperature. Since the SXR diagnostic measures the emission integrated along a fixed line of sight, the signal depends on the spatial distribution of the plasma emissivity along that chord. When the island rotates, its helical phase changes with time
+
+$\xi = 2\theta - \zeta - \phi(t),$
+
+and the temperature and emissivity perturbations associated with the island move relative to the fixed diagnostic. Consequently, the chord samples different portions of the island and its surroundings as the island rotates. Because these regions have different emissivities, the integrated SXR signal varies periodically in time, producing a modulation associated with the island rotation.
 
