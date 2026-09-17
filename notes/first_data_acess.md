@@ -1,4 +1,4 @@
-Using the [mdsplus_first_acess.ipynb](src/mdsplus_first_acess.ipynb) function in the `src` directory, we can access the TCABR MDSplus server. For this example, we used shot 33668 and accessed the Mirnov, SXR, and $H_\alpha$ diagnostics. From these data, we identified the following available channels:
+Using the [mdsplus_first_acess.ipynb](../src/mdsplus_first_acess.ipynb) function in the `src` directory, we can access the TCABR MDSplus server. For this example, we used shot 33668 and accessed the Mirnov, SXR, and $H_\alpha$ diagnostics. From these data, we identified the following available channels:
 
 - Mirnov diagnostics: channels from 01 to 24, with nomeclature `BBMRNVN##.signal`.
 
