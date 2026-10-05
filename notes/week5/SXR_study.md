@@ -35,3 +35,42 @@ Alternatively, the intermediate state can autoionize and return to the initial c
 These processes correspond to different types of radiative transitions: free-free interactions (Bremsstrahlung), free-bound interactions (Radiative recombination) and bound-bound interactions (Dielectronic recombination).
 
 Therefore, the soft X-ray emission measured by an SXR diagnostic can contain contributions from continuum processes, such as bremsstrahlung and radiative recombination, as well as discrete line and satellite-line emission associated with recombination and atomic transitions.
+
+# Impurity lines
+
+The identification of the charge states and atomic transitions responsible for SXR emission from high-Z impurities is fundamental in fusion experiments. Impurity radiation contributes to the total radiative power loss of the plasma and can be used to investigate impurity transport, particle confinement, and the spatial distribution of highly ionized species.
+
+In the wavelength range of approximately 20–70 Å, the emission from highly ionized impurities does not necessarily appear as isolated spectral lines. Instead, the spectrum can exhibit a quasi-continuous structure composed of a large number of closely spaced and overlapping spectral lines. The relative contribution of these lines depends strongly on the electron temperature, electron density, and impurity charge-state distribution.
+
+Therefore, the interpretation of an SXR signal requires knowledge of the ionization states present in the plasma. As the electron temperature changes, the relative abundance of different charge states changes, modifying both the intensity and spectral distribution of the impurity radiation. Consequently, SXR emission can be strongly sensitive to the local electron temperature and to impurity concentrations.
+
+# Ionization equilibrium
+
+The spatial distribution and relative abundance of different ionization states in a plasma can be described using different approximations. Two important approaches are the coronal equilibrium model and the collisional-radiative model (CRM).
+
+## Coronal Equilibrium
+
+The coronal equilibrium model is appropriate for sufficiently low electron densities, where radiative decay of excited states is much faster than collisional processes that would significantly modify their populations. In this regime, most ions remain in their ground state, and the populations of excited states can be treated as being in quasi-steady state.
+
+The equilibrium between two neighboring charge states is determined by the balance between electron-impact ionization and radiative plus dielectronic recombination. For an ion with charge state $z$, the equilibrium condition can be written schematically as
+
+$\frac{S_z(T_e)}{\alpha_{z+1}(T_e)} = \frac{n_{z+1}}{n_z}$,
+
+where $S_z$ is the electron-impact ionization rate coefficient and $\alpha_{z+1}$ is the total recombination rate coefficient.
+
+In the simplest coronal approximation, the fractional abundance of each charge state is therefore primarily a function of the electron temperature,
+
+$f_z \approx f_z(T_e)$.
+
+Consequently, in a plasma with a radial electron-temperature gradient, different charge states tend to dominate at different radial positions. Lower ionization states are generally more abundant in colder regions, while higher ionization states become dominant toward hotter regions.
+
+This ionization structure is particularly important for SXR diagnostics because each charge state has its own set of allowed atomic transitions. Therefore, changes in the local electron temperature can modify the charge-state distribution and, consequently, the intensity and spectral composition of the observed SXR emission.
+
+## Collisional Radiative Model (CRM)
+
+The coronal approximation becomes insufficient when the electron density increases or when metastable states and collisional processes significantly affect the atomic populations. In this regime, collisional excitation and de-excitation, radiative decay, ionization, and recombination processes must be considered simultaneously.
+
+The collisional-radiative model separates the atomic population into relatively long-lived states, such as the ground and metastable states, and short-lived excited states. The populations of these states are obtained by solving a coupled set of rate equations that accounts for both collisional and radiative processes.
+
+The CRM provides effective ionization and recombination coefficients that depend on the electron temperature and density.
+
