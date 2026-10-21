@@ -5,7 +5,7 @@ We gathered some articles with documented shots in which the 2/1 mode was confir
 |24126| Kuznetsov et al. (2012)| 13 kHz in the ohmnic phase; 14–15 kHz in the polarization phase| Mirnov, $H_\alpha$, SXR |
 |24128| Kuznetsov et al. (2012), Galvão et al. (2015)| 11 kHz in the polarization phase| Mirnov, $H_\alpha$, SXR |
 
-We then wrote a code (insert link to code) that computes the Mirnov spectrogram, estimates the mode frequency as a function of time, the duration of the activity and the signal-to-noise ratio (SNR). The method is described below for shot 24126. The same parameters are applied to every coil, so that the results can be compared.
+We then wrote a code [mdsplus_spectral_analysis.ipynb](../src/mdsplus_spectral_analysis.ipynb) that computes the Mirnov spectrogram, estimates the mode frequency as a function of time, the duration of the activity and the signal-to-noise ratio (SNR). The method is described below for shot 24126. The same parameters are applied to every coil, so that the results can be compared.
 
 # Shot 24126
 
@@ -124,4 +124,4 @@ Still using (link to the code) with the same parameters, we changed the shot and
 
 <img width="1807" height="1211" alt="espectograma_tracado" src="https://github.com/user-attachments/assets/e45b4a61-718d-4f72-a041-e26b0cbbdb17" />
 
-All these figure and data are reproducible by using the (insert code) and the data obtained from this analysis can be found in a table in the same code.
+All these figure and data are reproducible by using the [mdsplus_spectral_analysis.ipynb](../src/mdsplus_spectral_analysis.ipynb) and the data obtained from this analysis can be found in a table in the same code.
